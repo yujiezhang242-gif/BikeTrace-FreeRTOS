@@ -1,207 +1,18 @@
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2025 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
+/* BikeTrace C8 RTOS boot. Legacy main is preserved in baseline archive. */
 #include "main.h"
-#include "dma.h"
-#include "spi.h"
-#include "tim.h"
-#include "usart.h"
 #include "gpio.h"
-
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-#include "bsp_uart_driver.h"
-#include "bsp_gps_driver.h"
-#include "iic.h"
-#include "bsp_aht21_driver.h"
-#include "bsp_aht21_handle.h"
-#include "oled.h"
-#include "bsp_timer_driver.h"
-#include "bsp_key_driver.h"
-#include "w25qxx.h"
-#include "bsp_at24c02_driver.h"
-#include "at_ec600n_tcp_driver.h"
-#include "bsp_hmc5883l_driver.h"
-
-#include "bike.h"
-#include "screen.h"
-#include "network.h"
-
-
-/* USER CODE END Includes */
-
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
-
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE BEGIN PV */
-
-/* USER CODE END PV */
-
-/* Private function prototypes -----------------------------------------------*/
+#include "spi.h"
+#include "usart.h"
+#include "app_config.h"
+#include "app_runtime.h"
 void SystemClock_Config(void);
-/* USER CODE BEGIN PFP */
-
-/* USER CODE END PFP */
-
-/* Private user code ---------------------------------------------------------*/
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
-
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
-int main(void)
-{
-  /* USER CODE BEGIN 1 */
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
-  SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  //MX_DMA_Init();
-  MX_TIM2_Init();
-  MX_USART1_UART_Init();
-  MX_USART2_UART_Init();
-  MX_USART3_UART_Init();
-  MX_SPI1_Init();
-  /* USER CODE BEGIN 2 */
-  // Æô¶¯´®¿ÚÖÐ¶Ï½ÓÊÕ
-  debug_uart_init();
-  u2.start();
-  u3.start();
-  iic.init();
-  aht21.init();
-  
-  tim.start();
-  bike_init();
-  hmc5883l.init();
-  
-//  printf("校准中，请旋转磁力计...\r\n");
-  hmc5883l.calibration();
-  
-//  uint8_t readdata;
-//  uint8_t writedata = 0xA5;
-//  
-//  at24c02.readBytes(&readdata, 1, 1);
-//  printf("read data is [%x]\r\n", readdata);
-//  at24c02.writeBytes(&writedata, 1, 1);
-//  HAL_Delay(10);
-//  at24c02.readBytes(&readdata, 1, 1);
-//  printf("read data is [%x]\r\n", readdata);
-  
-//	printf("================================\r\n");
-//	
-//	HAL_Delay(200);
-//	ee_Test();
-//	HAL_Delay(200);
-//	
-//	printf("================================\r\n");
-//uint8_t arrow=0;
-//int16_t kx,ky;
-//double lat = 22.23223, lng = 113.11113;
-char* time_str = "123";
-int32_t remain_m = 50;
-float dis_km = 0;
-//char orie[4];
-//char inst[4];
-//	at24c02.readBytes((uint8_t *)&kx, HMC_CALIB_KX_ADDR, 2);
-//	at24c02.readBytes((uint8_t *)&ky, HMC_CALIB_KY_ADDR, 2);
-////	at24c02.readBytes((uint8_t *)&lat, DEST_LAT_ADDR, 8);
-////	at24c02.readBytes((uint8_t *)&lng, DEST_LNG_ADDR, 8);
-//	  at24c02.writeBytes((uint8_t *)&lat, DEST_LAT_ADDR, 8);
-//	  HAL_Delay(5);
-//	  at24c02.writeBytes((uint8_t *)&lng, DEST_LNG_ADDR, 8);
-//	at24c02.readBytes((uint8_t *)&lat, DEST_LAT_ADDR, 8);
-//	at24c02.readBytes((uint8_t *)&lng, DEST_LNG_ADDR, 8);
-//	char str1[12],str2[16];
-//	sprintf(str1, "kx:%d,ky:%d",kx,ky);
-//	sprintf(str2, "%.2f,%.2f",lat,lng);
-  /* USER CODE END 2 */
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
-	  
-	if (gps.handle.get_gprmc_flag())
-	{
-		gps.handle.parse_gprmc_data();
-	}
-	
-	bike_handle();
-	
-	//if (check_ride_path_gener_done())
-	{
-		if (tim.getTimFlag())
-		{
-			//printf("keep living!\r\n");
-			test(time_str, dis_km);
-			dis_km += 0.01;
-			tim.clearTimFlag();
-			//LED_RIDE_TOGGLE();
-		}
-	}
-	
-	//HAL_Delay(1000);
-	  
-//	  OLED_ShowString(1,1,str1);
-//	  OLED_ShowString(3,1,str2);
-	
-    /* USER CODE BEGIN 3 */
-  }
-  /* USER CODE END 3 */
+int main(void) {
+    HAL_Init();SystemClock_Config();MX_GPIO_Init();
+#if !APP_HEARTBEAT_ONLY
+    MX_USART1_UART_Init();MX_USART2_UART_Init();MX_USART3_UART_Init();MX_SPI1_Init();
+#endif
+    App_Start();for(;;) {}
 }
-
-/**
-  * @brief System Clock Configuration
-  * @retval None
-  */
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
@@ -241,34 +52,7 @@ void SystemClock_Config(void)
 
 /* USER CODE END 4 */
 
-/**
-  * @brief  This function is executed in case of error occurrence.
-  * @retval None
-  */
-void Error_Handler(void)
-{
-  /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
-  __disable_irq();
-  while (1)
-  {
-  }
-  /* USER CODE END Error_Handler_Debug */
-}
-
-#ifdef  USE_FULL_ASSERT
-/**
-  * @brief  Reports the name of the source file and the source line number
-  *         where the assert_param error has occurred.
-  * @param  file: pointer to the source file name
-  * @param  line: assert_param error line source number
-  * @retval None
-  */
-void assert_failed(uint8_t *file, uint32_t line)
-{
-  /* USER CODE BEGIN 6 */
-  /* User can add his own implementation to report the file name and line number,
-     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
-  /* USER CODE END 6 */
-}
-#endif /* USE_FULL_ASSERT */
+void Error_Handler(void) { __disable_irq();for(;;) {} }
+#ifdef USE_FULL_ASSERT
+void assert_failed(uint8_t *file,uint32_t line) {(void)file;(void)line;Error_Handler();}
+#endif

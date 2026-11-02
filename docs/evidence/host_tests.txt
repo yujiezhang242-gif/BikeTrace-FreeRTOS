@@ -1,0 +1,10 @@
+
+T01/T02: 1000 RMC frames, checksum, CRLF, overflow, hemisphere, time/date, wrap PASS
+T03/T04/T05: units, state/ACK/retry, elapsed delay, stale GPS, wrap, 30min offline simulation PASS
+T06/T07/T08: legacy offsets, 13 samples, STOP, write/readback/checkpoint failure, retries, protection, page-zero index PASS
+T07/T08 extended: isolated range guard, interrupted checkpoint, 20 read-only reboot scans, journal full PASS (RAM fake)
+T09/T10: split/coalesced JSON, bounded parser, malformed fuzz, atomic routes, time, AT timeout/URC/backoff PASS
+Navigation: multiple-step advance, endpoint, new ride reset, heading deviation/replan PASS
+AHT21: CRC, busy-state rejection, 25.00C/50.00% decode PASS
+T11: repeated START/read bits, missing device NACK, stuck SCL timeout, STOP/release PASS
+PASS 1327 checks; sizeof GpsFix=40 Snapshot=56 StorageRequest=64

@@ -1,0 +1,47 @@
+# Firmware changes
+
+- ADDED: `Application/Inc/FreeRTOSConfig.h`
+- ADDED: `Application/Inc/app_config.h`
+- ADDED: `Application/Inc/app_types.h`
+- ADDED: `Application/Services/bike_core.c`
+- ADDED: `Application/Services/bike_core.h`
+- ADDED: `Application/Services/geo.c`
+- ADDED: `Application/Services/geo.h`
+- ADDED: `Application/Services/gnss_parser.c`
+- ADDED: `Application/Services/gnss_parser.h`
+- ADDED: `Application/Services/i2c_bus.c`
+- ADDED: `Application/Services/i2c_bus.h`
+- ADDED: `Application/Services/isolated_flash.c`
+- ADDED: `Application/Services/isolated_flash.h`
+- ADDED: `Application/Services/legacy_reader.c`
+- ADDED: `Application/Services/legacy_reader.h`
+- ADDED: `Application/Services/navigation_core.c`
+- ADDED: `Application/Services/navigation_core.h`
+- ADDED: `Application/Services/net_framer.c`
+- ADDED: `Application/Services/net_framer.h`
+- ADDED: `Application/Services/net_protocol.c`
+- ADDED: `Application/Services/net_protocol.h`
+- ADDED: `Application/Services/network_service.c`
+- ADDED: `Application/Services/network_service.h`
+- ADDED: `Application/Services/sensor_codec.c`
+- ADDED: `Application/Services/sensor_codec.h`
+- ADDED: `Application/Services/storage_codec.c`
+- ADDED: `Application/Services/storage_codec.h`
+- ADDED: `Application/Services/storage_service.c`
+- ADDED: `Application/Services/storage_service.h`
+- ADDED: `Application/System/app_board.c`
+- ADDED: `Application/System/app_board.h`
+- ADDED: `Application/System/app_health.c`
+- ADDED: `Application/System/app_runtime.h`
+- ADDED: `Application/System/app_uart.c`
+- ADDED: `Application/System/font8x16.h`
+- ADDED: `Application/System/hal_timebase_tim4.c`
+- ADDED: `Application/Tasks/app_tasks.c`
+- MODIFIED: `Core/Src/gpio.c`
+- MODIFIED: `Core/Src/main.c`
+- MODIFIED: `Core/Src/stm32f1xx_it.c`
+- MODIFIED: `Core/Src/usart.c`
+- ADDED: `MDK-ARM/BikeTrace_FreeRTOS.uvprojx`
+- MODIFIED: `MDK-ARM/startup_stm32f103xb.s`
+
+Vendor FreeRTOS import is listed separately in Middlewares/FreeRTOS/PROVENANCE.md.

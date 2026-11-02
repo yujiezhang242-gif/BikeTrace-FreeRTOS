@@ -1,0 +1,3 @@
+BikeTrace_C8_LITE: PASS, 49 sources, C8 unchanged, one RVDS port/heap, all new C units included, legacy business excluded
+BikeTrace_P1_Heartbeat: PASS, 49 sources, C8 unchanged, one RVDS port/heap, all new C units included, legacy business excluded
+IRQ source ownership / UART bounded ingress / default write+network guards: PASS

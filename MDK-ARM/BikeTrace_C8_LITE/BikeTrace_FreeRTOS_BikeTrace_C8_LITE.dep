@@ -1,0 +1,1146 @@
+Dependencies for Project 'BikeTrace_FreeRTOS', Target 'BikeTrace_C8_LITE': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x6AE84B44)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\biketrace_c8_lite\startup_stm32f103xb.lst --xref -o .\biketrace_c8_lite\startup_stm32f103xb.o --depend .\biketrace_c8_lite\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x6AE84B44)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\main.o --omf_browse .\biketrace_c8_lite\main.crf --depend .\biketrace_c8_lite\main.d)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Core/Inc/gpio.h)(0x688DBA5C)
+I (../Core/Inc/spi.h)(0x68908856)
+I (../Core/Inc/usart.h)(0x688DBA5C)
+I (../Application/Inc/app_config.h)(0x6AE84E06)
+I (../Application/System/app_runtime.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stream_buffer.h)(0x6AE849D0)
+F (../Core/Src/gpio.c)(0x6AE84B44)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\gpio.o --omf_browse .\biketrace_c8_lite\gpio.crf --depend .\biketrace_c8_lite\gpio.d)
+I (../Core/Inc/gpio.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Core/Src/dma.c)(0x68908856)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\dma.o --omf_browse .\biketrace_c8_lite\dma.crf --depend .\biketrace_c8_lite\dma.d)
+I (../Core/Inc/dma.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (..\Core\Src\spi.c)(0x6890B26A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\spi.o --omf_browse .\biketrace_c8_lite\spi.crf --depend .\biketrace_c8_lite\spi.d)
+I (../Core/Inc/spi.h)(0x68908856)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Core/Src/tim.c)(0x6898940A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\tim.o --omf_browse .\biketrace_c8_lite\tim.crf --depend .\biketrace_c8_lite\tim.d)
+I (../Core/Inc/tim.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Core/Src/usart.c)(0x6AE84B44)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\usart.o --omf_browse .\biketrace_c8_lite\usart.crf --depend .\biketrace_c8_lite\usart.d)
+I (../Core/Inc/usart.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Core/Src/stm32f1xx_it.c)(0x6AE84B44)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_it.o --omf_browse .\biketrace_c8_lite\stm32f1xx_it.crf --depend .\biketrace_c8_lite\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Core/Inc/stm32f1xx_it.h)(0x688DBBD8)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x688DBA5E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_msp.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_msp.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_gpio_ex.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_gpio_ex.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_spi.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_spi.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal.crf --depend .\biketrace_c8_lite\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_rcc.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_rcc.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_rcc_ex.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_rcc_ex.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_gpio.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_gpio.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_dma.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_dma.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_cortex.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_cortex.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_pwr.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_pwr.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_flash.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_flash.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_flash_ex.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_flash_ex.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_exti.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_exti.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_tim.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_tim.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_tim_ex.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_tim_ex.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stm32f1xx_hal_uart.o --omf_browse .\biketrace_c8_lite\stm32f1xx_hal_uart.crf --depend .\biketrace_c8_lite\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Core/Src/system_stm32f1xx.c)(0x6745C4FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\system_stm32f1xx.o --omf_browse .\biketrace_c8_lite\system_stm32f1xx.crf --depend .\biketrace_c8_lite\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+F (../Application/Services/bike_core.c)(0x6AE85292)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\bike_core.o --omf_browse .\biketrace_c8_lite\bike_core.crf --depend .\biketrace_c8_lite\bike_core.d)
+I (../Application/Services/bike_core.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (../Application/Services/geo.c)(0x6AE84CEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\geo.o --omf_browse .\biketrace_c8_lite\geo.crf --depend .\biketrace_c8_lite\geo.d)
+I (../Application/Services/geo.h)(0x6AE84CEC)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (../Application/Services/gnss_parser.c)(0x6AE85096)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\gnss_parser.o --omf_browse .\biketrace_c8_lite\gnss_parser.crf --depend .\biketrace_c8_lite\gnss_parser.d)
+I (../Application/Services/gnss_parser.h)(0x6AE84992)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/Services/i2c_bus.c)(0x6AE84A8A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\i2c_bus.o --omf_browse .\biketrace_c8_lite\i2c_bus.crf --depend .\biketrace_c8_lite\i2c_bus.d)
+I (../Application/Services/i2c_bus.h)(0x6AE84A8A)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (../Application/Services/isolated_flash.c)(0x6AE84CAE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\isolated_flash.o --omf_browse .\biketrace_c8_lite\isolated_flash.crf --depend .\biketrace_c8_lite\isolated_flash.d)
+I (../Application/Services/isolated_flash.h)(0x6AE84CAE)
+I (../Application/Services/storage_service.h)(0x6AE849D0)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/Services/legacy_reader.c)(0x6AE84AC4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\legacy_reader.o --omf_browse .\biketrace_c8_lite\legacy_reader.crf --depend .\biketrace_c8_lite\legacy_reader.d)
+I (../Application/Services/legacy_reader.h)(0x6AE84AC4)
+I (../Application/Services/storage_service.h)(0x6AE849D0)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/Services/navigation_core.c)(0x6AE85044)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\navigation_core.o --omf_browse .\biketrace_c8_lite\navigation_core.crf --depend .\biketrace_c8_lite\navigation_core.d)
+I (../Application/Services/navigation_core.h)(0x6AE84EC6)
+I (../Application/Services/net_protocol.h)(0x6AE84C50)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/Services/net_framer.c)(0x6AE84A0A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\net_framer.o --omf_browse .\biketrace_c8_lite\net_framer.crf --depend .\biketrace_c8_lite\net_framer.d)
+I (../Application/Services/net_framer.h)(0x6AE84A0A)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/Services/net_protocol.c)(0x6AE85096)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\net_protocol.o --omf_browse .\biketrace_c8_lite\net_protocol.crf --depend .\biketrace_c8_lite\net_protocol.d)
+I (../Application/Services/net_protocol.h)(0x6AE84C50)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Services/geo.h)(0x6AE84CEC)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (../Application/Services/network_service.c)(0x6AE84E6A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\network_service.o --omf_browse .\biketrace_c8_lite\network_service.crf --depend .\biketrace_c8_lite\network_service.d)
+I (../Application/Services/network_service.h)(0x6AE84E6A)
+I (../Application/Services/net_framer.h)(0x6AE84A0A)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Services/net_protocol.h)(0x6AE84C50)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (../Application/Services/sensor_codec.c)(0x6AE85236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\sensor_codec.o --omf_browse .\biketrace_c8_lite\sensor_codec.crf --depend .\biketrace_c8_lite\sensor_codec.d)
+I (../Application/Services/sensor_codec.h)(0x6AE85236)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (../Application/Services/storage_codec.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\storage_codec.o --omf_browse .\biketrace_c8_lite\storage_codec.crf --depend .\biketrace_c8_lite\storage_codec.d)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\float.h)(0x588B8344)
+F (../Application/Services/storage_service.c)(0x6AE84DB8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\storage_service.o --omf_browse .\biketrace_c8_lite\storage_service.crf --depend .\biketrace_c8_lite\storage_service.d)
+I (../Application/Services/storage_service.h)(0x6AE849D0)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Application/System/app_board.c)(0x6AE85236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\app_board.o --omf_browse .\biketrace_c8_lite\app_board.crf --depend .\biketrace_c8_lite\app_board.d)
+I (../Application/System/app_board.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Services/i2c_bus.h)(0x6AE84A8A)
+I (../Application/Services/storage_service.h)(0x6AE849D0)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Inc/app_config.h)(0x6AE84E06)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Core/Inc/spi.h)(0x68908856)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/semphr.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/queue.h)(0x6AE849D0)
+I (../Application/System/font8x16.h)(0x6AE84D22)
+I (../Application/Services/isolated_flash.h)(0x6AE84CAE)
+I (../Application/Services/sensor_codec.h)(0x6AE85236)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (../Application/System/app_health.c)(0x6AE84CEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\app_health.o --omf_browse .\biketrace_c8_lite\app_health.crf --depend .\biketrace_c8_lite\app_health.d)
+I (../Application/System/app_runtime.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stream_buffer.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Application/System/app_uart.c)(0x6AE84CEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\app_uart.o --omf_browse .\biketrace_c8_lite\app_uart.crf --depend .\biketrace_c8_lite\app_uart.d)
+I (../Application/System/app_runtime.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stream_buffer.h)(0x6AE849D0)
+I (../Core/Inc/usart.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+F (../Application/System/hal_timebase_tim4.c)(0x6AE84AC4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\hal_timebase_tim4.o --omf_browse .\biketrace_c8_lite\hal_timebase_tim4.crf --depend .\biketrace_c8_lite\hal_timebase_tim4.d)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Application/Tasks/app_tasks.c)(0x6AE85292)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\app_tasks.o --omf_browse .\biketrace_c8_lite\app_tasks.crf --depend .\biketrace_c8_lite\app_tasks.d)
+I (../Application/System/app_runtime.h)(0x6AE84CEC)
+I (../Application/Inc/app_types.h)(0x6AE84EC6)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stream_buffer.h)(0x6AE849D0)
+I (../Application/Inc/app_config.h)(0x6AE84E06)
+I (../Application/System/app_board.h)(0x6AE84CEC)
+I (../Application/Services/i2c_bus.h)(0x6AE84A8A)
+I (../Application/Services/storage_service.h)(0x6AE849D0)
+I (../Application/Services/storage_codec.h)(0x6AE849D0)
+I (../Application/Services/bike_core.h)(0x6AE84CEC)
+I (../Application/Services/gnss_parser.h)(0x6AE84992)
+I (../Application/Services/network_service.h)(0x6AE84E6A)
+I (../Application/Services/net_framer.h)(0x6AE84A0A)
+I (../Application/Services/net_protocol.h)(0x6AE84C50)
+I (../Application/Services/legacy_reader.h)(0x6AE84AC4)
+I (../Application/Services/navigation_core.h)(0x6AE84EC6)
+I (../Middlewares/FreeRTOS/include/queue.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Core/Inc/usart.h)(0x688DBA5C)
+I (../Core/Inc/main.h)(0x68A46998)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6745C4FC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68908856)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6745C4FC)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6745C4F4)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6745C4FC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6745C4FC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (../Middlewares/FreeRTOS/tasks.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\tasks.o --omf_browse .\biketrace_c8_lite\tasks.crf --depend .\biketrace_c8_lite\tasks.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/timers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stack_macros.h)(0x6AE849D0)
+F (../Middlewares/FreeRTOS/queue.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\queue.o --omf_browse .\biketrace_c8_lite\queue.crf --depend .\biketrace_c8_lite\queue.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/queue.h)(0x6AE849D0)
+F (../Middlewares/FreeRTOS/list.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\list.o --omf_browse .\biketrace_c8_lite\list.crf --depend .\biketrace_c8_lite\list.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+F (../Middlewares/FreeRTOS/stream_buffer.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\stream_buffer.o --omf_browse .\biketrace_c8_lite\stream_buffer.crf --depend .\biketrace_c8_lite\stream_buffer.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/stream_buffer.h)(0x6AE849D0)
+F (../Middlewares/FreeRTOS/portable/MemMang/heap_4.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\heap_4.o --omf_browse .\biketrace_c8_lite\heap_4.crf --depend .\biketrace_c8_lite\heap_4.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)
+F (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/port.c)(0x6AE849D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Application/Inc -I ../Application/Services -I ../Application/System -I ../Middlewares/FreeRTOS/include -I ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3-I.\RTE\_BikeTrace_C8_LITE-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o .\biketrace_c8_lite\port.o --omf_browse .\biketrace_c8_lite\port.crf --depend .\biketrace_c8_lite\port.d)
+I (../Middlewares/FreeRTOS/include/FreeRTOS.h)(0x6AE849D0)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Application/Inc/FreeRTOSConfig.h)(0x6AE86168)
+I (../Middlewares/FreeRTOS/include/projdefs.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/portable.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/deprecated_definitions.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/mpu_wrappers.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/task.h)(0x6AE849D0)
+I (../Middlewares/FreeRTOS/include/list.h)(0x6AE849D0)

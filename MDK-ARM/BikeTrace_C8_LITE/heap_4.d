@@ -1,0 +1,14 @@
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/portable/MemMang/heap_4.c
+.\biketrace_c8_lite\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\biketrace_c8_lite\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/FreeRTOS.h
+.\biketrace_c8_lite\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\biketrace_c8_lite\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\biketrace_c8_lite\heap_4.o: ../Application/Inc/FreeRTOSConfig.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/projdefs.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/portable.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/deprecated_definitions.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/mpu_wrappers.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/task.h
+.\biketrace_c8_lite\heap_4.o: ../Middlewares/FreeRTOS/include/list.h

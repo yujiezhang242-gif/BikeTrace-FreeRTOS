@@ -1,0 +1,16 @@
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/tasks.c
+.\biketrace_p1_heartbeat\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\biketrace_p1_heartbeat\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/FreeRTOS.h
+.\biketrace_p1_heartbeat\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\biketrace_p1_heartbeat\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\biketrace_p1_heartbeat\tasks.o: ../Application/Inc/FreeRTOSConfig.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/projdefs.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/portable.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/deprecated_definitions.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/mpu_wrappers.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/task.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/list.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/timers.h
+.\biketrace_p1_heartbeat\tasks.o: ../Middlewares/FreeRTOS/include/stack_macros.h

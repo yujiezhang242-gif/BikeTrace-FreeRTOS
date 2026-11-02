@@ -1,0 +1,2 @@
+
+T12: actual FreeRTOS FIFO STOP reservation, latest snapshot overwrite, FromISR stream overflow, heap exhaustion/recovery PASS (test port; scheduling NOT_RUN)

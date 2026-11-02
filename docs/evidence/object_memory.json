@@ -1,0 +1,188 @@
+[
+  {
+    "profile": "lite",
+    "unlinked_ram_sections": 17397,
+    "unlinked_code_sections": 72412,
+    "unlinked_ro_sections": 9075,
+    "msp_reserved": 2048,
+    "ram_remaining_upper_bound_check": 1035,
+    "objects": [
+      {
+        "object": "app_board.o",
+        "ram_sections": 63
+      },
+      {
+        "object": "app_health.o",
+        "ram_sections": 116
+      },
+      {
+        "object": "app_tasks.o",
+        "ram_sections": 5396
+      },
+      {
+        "object": "app_uart.o",
+        "ram_sections": 701
+      },
+      {
+        "object": "heap_4.o",
+        "ram_sections": 10268
+      },
+      {
+        "object": "port.o",
+        "ram_sections": 9
+      },
+      {
+        "object": "spi.o",
+        "ram_sections": 92
+      },
+      {
+        "object": "stm32f1xx_hal.o",
+        "ram_sections": 12
+      },
+      {
+        "object": "stm32f1xx_hal_flash.o",
+        "ram_sections": 32
+      },
+      {
+        "object": "system_stm32f1xx.o",
+        "ram_sections": 4
+      },
+      {
+        "object": "tasks.o",
+        "ram_sections": 216
+      },
+      {
+        "object": "tim.o",
+        "ram_sections": 104
+      },
+      {
+        "object": "usart.o",
+        "ram_sections": 384
+      }
+    ]
+  },
+  {
+    "profile": "heartbeat",
+    "unlinked_ram_sections": 12009,
+    "unlinked_code_sections": 67656,
+    "unlinked_ro_sections": 8113,
+    "msp_reserved": 2048,
+    "ram_remaining_upper_bound_check": 6423,
+    "objects": [
+      {
+        "object": "app_board.o",
+        "ram_sections": 63
+      },
+      {
+        "object": "app_health.o",
+        "ram_sections": 116
+      },
+      {
+        "object": "app_tasks.o",
+        "ram_sections": 8
+      },
+      {
+        "object": "app_uart.o",
+        "ram_sections": 701
+      },
+      {
+        "object": "heap_4.o",
+        "ram_sections": 10268
+      },
+      {
+        "object": "port.o",
+        "ram_sections": 9
+      },
+      {
+        "object": "spi.o",
+        "ram_sections": 92
+      },
+      {
+        "object": "stm32f1xx_hal.o",
+        "ram_sections": 12
+      },
+      {
+        "object": "stm32f1xx_hal_flash.o",
+        "ram_sections": 32
+      },
+      {
+        "object": "system_stm32f1xx.o",
+        "ram_sections": 4
+      },
+      {
+        "object": "tasks.o",
+        "ram_sections": 216
+      },
+      {
+        "object": "tim.o",
+        "ram_sections": 104
+      },
+      {
+        "object": "usart.o",
+        "ram_sections": 384
+      }
+    ]
+  },
+  {
+    "profile": "isolated",
+    "unlinked_ram_sections": 17450,
+    "unlinked_code_sections": 73228,
+    "unlinked_ro_sections": 9084,
+    "msp_reserved": 2048,
+    "ram_remaining_upper_bound_check": 982,
+    "objects": [
+      {
+        "object": "app_board.o",
+        "ram_sections": 116
+      },
+      {
+        "object": "app_health.o",
+        "ram_sections": 116
+      },
+      {
+        "object": "app_tasks.o",
+        "ram_sections": 5396
+      },
+      {
+        "object": "app_uart.o",
+        "ram_sections": 701
+      },
+      {
+        "object": "heap_4.o",
+        "ram_sections": 10268
+      },
+      {
+        "object": "port.o",
+        "ram_sections": 9
+      },
+      {
+        "object": "spi.o",
+        "ram_sections": 92
+      },
+      {
+        "object": "stm32f1xx_hal.o",
+        "ram_sections": 12
+      },
+      {
+        "object": "stm32f1xx_hal_flash.o",
+        "ram_sections": 32
+      },
+      {
+        "object": "system_stm32f1xx.o",
+        "ram_sections": 4
+      },
+      {
+        "object": "tasks.o",
+        "ram_sections": 216
+      },
+      {
+        "object": "tim.o",
+        "ram_sections": 104
+      },
+      {
+        "object": "usart.o",
+        "ram_sections": 384
+      }
+    ]
+  }
+]

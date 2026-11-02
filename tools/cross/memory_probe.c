@@ -1,0 +1,10 @@
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "stream_buffer.h"
+#include "app_types.h"
+char probe_tcb[sizeof(StaticTask_t)];
+char probe_queue[sizeof(StaticQueue_t)];
+char probe_stream[sizeof(StaticStreamBuffer_t)];
+char probe_request[sizeof(StorageRequest)];
+char probe_snapshot[sizeof(BikeSnapshot)+sizeof(GpsFix)];

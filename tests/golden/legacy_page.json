@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "samples": 13,
+  "first_longitude_dm": 11330,
+  "first_latitude_dm": 2230,
+  "speed_centi": 1852,
+  "timestamp": 305419896,
+  "temperature_centi": -1234,
+  "distance_centi_km": 100,
+  "kcal": 35
+}
